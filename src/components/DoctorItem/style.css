@@ -1,0 +1,47 @@
+.doctor-item-image{
+    height: 20vh;
+}
+.doctor-item-name{
+    font-size: 22px;
+    margin: 5px;
+    font-weight: bold;
+}
+.doctor-item-info{
+    font-size: 16px;
+}
+.star-icon{
+    padding-top: 2px;
+    color: gold;
+}
+.location-para{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 5px;
+}
+.location-icon{
+    color: red;
+    font-size: 20px;
+}
+.avalaible-span{
+    background-color: rgb(225, 218, 218);
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+}
+.available{
+    background-color: lightgreen;
+}
+.full{
+    background-color: rgb(244, 94, 94);
+}
+.leave{
+    background-color: rgb(232, 183, 93);
+}

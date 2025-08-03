@@ -1,0 +1,77 @@
+.appointments-container{
+    margin-top: 10vh;
+}
+.empty-booking-container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    flex-direction: column;
+}
+.empty-booking-para{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 18px;
+}
+
+.empty-booking-button{
+    padding: 8px 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    border-style: none;
+    box-shadow: 0px 0px 5px grey;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.appointments-heading{
+    text-align: center;
+    margin: 5px;
+    color: rgb(209, 26, 209);
+}
+
+.appointments-container ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.book-item{
+    border: 2px solid black;
+    /* text-align: center; */
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.book-heading{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+}
+.book-value{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+@media (min-width: 768px) {
+    .appointments-container{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .appointments-container ul{
+        margin-top: 20px;
+        flex-direction: row;
+    }
+    .book-item{
+        width: 45%;
+    }
+}

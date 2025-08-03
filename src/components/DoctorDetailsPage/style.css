@@ -1,0 +1,256 @@
+.details-view-container{
+    margin-top: 13vh;
+    text-align: center;
+
+}
+.doctor-item-image-2{
+    height: 35vh;
+}
+.name{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.spectialization{
+    font-size: 22px;
+}
+
+.bio-para{
+    color: black;
+    /* margin: 5px; */
+}
+.side-heading{
+    font-size: 17px;
+    color: black;
+}
+.value{
+    color:blueviolet;
+    font-size: 17px;
+    font-weight: 500;
+}
+.details-section > ul{
+    padding-top: 3px;
+}
+.details-section > ul > li{
+    margin: 8px;
+}
+
+
+.value-status{
+    color:blueviolet;
+    font-size: 20px;
+    align-content: center;
+    font-weight: bold;
+}
+
+.available-2{
+    color: green;
+    background-color: transparent;
+}
+.full-2{
+    color: red;
+    background-color: transparent;
+}
+.leave-2{
+    color: orange;
+    background-color: transparent;
+}
+.next-week-booking-para{
+    font-size: 15px;
+}
+
+.time-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.slots-title{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: blueviolet;
+}
+.schedule-list-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+    margin: 12px 30px;
+    align-content: center;
+    padding: 10px;
+
+}
+.schedule-list-container  li{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px;
+}
+.book-button{
+    padding: 8px 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    border-style: none;
+    box-shadow: 0px 0px 5px grey;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.book-button:hover{
+    background-color: rgb(39, 228, 109);
+    color: black;
+}
+details{
+    padding: 10px 20px;
+}
+summary{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.more-info-container li{
+    margin-bottom: 8px;
+}
+.hide-message{
+    display: none;
+}
+
+.form-ele{
+   border: 2px solid blueviolet;
+   padding: 20px;
+   padding-top: 0px;
+   border-radius: 8px;
+}
+.label-ele{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    margin-top: 15px;
+}
+.radio-group-container{
+    display: flex;
+    align-items: center;
+}
+.radio-section{
+    align-content: center;
+    margin-right: 10px;
+}
+form input{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+form select{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+form input::placeholder{
+    font-size: 16px;
+}
+
+.radio-section > input{
+    cursor: pointer;
+    margin-top: 5px;
+}
+textarea{
+    font-size: 16px;
+    padding: 5px;
+}
+.buttons-container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-submit-button{
+    padding: 8px 15px;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    border-style: none;
+    box-shadow: 0px 0px 5px grey;
+    cursor: pointer;
+    width: 55%;
+}
+.close-btn{
+    width: 40%;
+    background-color: red;
+}
+.form-title{
+    color: blueviolet;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.error-msg-para{
+    color: red;
+    text-align: center;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+    .bio-para{
+        margin: 5px;
+    }
+    .details-background-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .doctor-item-image-2{
+        height: 55vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .time-container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details-section{
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 0px;
+ 
+    }
+    details{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .doctor-item-image-2{
+        width: auto;
+    }    
+    .time-container{
+        width: 60%;
+    }
+    
+}
+
+.success-para{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 5px;
+}

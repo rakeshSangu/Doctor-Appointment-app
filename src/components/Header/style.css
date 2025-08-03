@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:wght@100..900&family=Playwrite+AU+QLD&display=swap');
+
+.mobile-header{
+    height: 10vh;
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+header > button{
+    background-color: transparent;
+    cursor: pointer;
+    border-style: none;
+}
+.header-mobile-logo{
+    height: 50px;
+    clip-path: circle(50%);
+}
+.page-title{
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(209, 26, 209);;
+}
+
+.menu-icon{
+    height:40px;
+    width: 35px;
+}
+.mobile-menu-list-container{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 200, 162);
+    color: black;
+    padding: 10px;
+    top: 10vh;
+    width: 50vw;
+    display: none;
+}
+.mobile-nav-links{
+    margin: 5px;
+    font-size: 20px;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.mobile-nav-links:hover{
+    color: rgb(209, 26, 209);
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+.showmenu{
+    display: flex;
+}
+
+.large-header{
+    background-color: antiquewhite;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    height: 10vh;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.large-logo-container{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.large-nav-bar{
+    width: 100%;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.large-nav-link{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    /* transition: text-decoration 0.2s ease; */
+    transition: all 0.2s ease;
+
+}
+.large-nav-link:hover{
+        color: rgb(209, 26, 209);
+        text-decoration: underline;
+}
+
+.active-link{
+    color: rgb(209, 26, 209);
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px){
+    .header-mobile-logo{
+        height: 60px;
+        /* border: 6px solid rgb(209, 26, 209); */
+    }
+    .large-header{
+        display: flex;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .mobile-header{
+        display: none;
+    }
+}

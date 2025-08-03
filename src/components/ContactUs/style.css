@@ -1,0 +1,16 @@
+.contact-container{
+    margin-top: 10vh;
+}
+.linked-in-ele{
+    color: blueviolet;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact-list{
+    list-style-type: none;
+    text-align: center;
+}
+.link-list-item{
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,256 @@
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    height: 90vh;
+    border-bottom: 1px solid rgb(201, 13, 126);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.home-top-image{
+    height: 35vh;
+    text-align: center;
+}
+.hero-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.title{
+    color: rgb(209, 26, 209);
+    font-family: "Georgia";
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+.sub-title{
+    color: black;
+    font-size: 20px;
+    font-family: "Garamond";
+    margin: 5px;
+    font-weight: bold;
+}
+.slogon-para{
+    font-family: "Monaco";
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0px;
+    color: rgb(219, 42, 148);
+}
+.search-filter-container{
+    padding: 5px 20px;
+    /* width: 100%; */
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(125, 19, 106);
+    border-radius: 3px;
+}
+.search-input{
+    font-size: 18px;
+    font-family: "Roboto";
+    padding: 8px;
+    padding-right: 0px;
+    width: 100%;
+    outline: none;
+    border-style: none;
+
+}
+.search-input::placeholder{
+    font-size: 18px;
+    align-content: center;
+}
+.search-button{
+    border-style: none;
+    background-color: transparent;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(209, 26, 209); */
+    color: black;
+    cursor: pointer;
+}
+.search-button:hover{
+    color: rgb(209, 26, 209);
+}
+.filter-container{
+    margin-top: 10px;
+ }
+.select-ele{
+    padding: 5px;
+    color: black;
+    font-size: 13px;
+    outline: none;
+    border: 2px solid rgb(125, 19, 106);
+    border-radius: 2px;
+}
+.location-ele{
+    margin-right: 5px;
+}
+
+.loading-para{
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    height: 40vh;
+}
+
+.failure-container{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.home-bottom-section-heading{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.home-bottom-section-para{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.doctors-list-container{
+    list-style-type: none;
+    padding-left: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.doctor-item-link{
+    width: 100%;
+}
+.doctors-list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+    position: relative;
+}
+.doctors-list-item:hover{
+     box-shadow: 0px 0px 20px rgb(209, 26, 209);
+}
+
+
+.Empty-Doctors-container{
+    text-align: center;
+    font-size: 18px;
+    height: 50vh;
+    padding: 30px;
+    color: red;
+}
+
+
+
+@media (min-width:768px){
+    .top-section{
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        margin-top: 20vh;
+    }
+    .home-top-image{
+        order: 1;
+        height: 60vh;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .sub-title{
+        font-size: 25px;
+    }
+    .slogon-para{
+        font-size: 24px;
+    }
+    .search-filter-container{
+        margin: 10px;
+    }
+    .search-input{
+        font-size: 22px;
+    }
+    .search-input::placeholder{
+        font-size: 18px;
+    }
+    .select-ele{
+        font-size: 15px;
+        padding: 5px;
+        border: 2px solid rgb(125, 19, 106);
+        border-radius: 3px;
+    }
+    .filter-container{
+        margin-top: 12px;
+    }
+    .doctors-list-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .doctor-item-link{
+        width: 45%;
+    }
+}
+
+@media(min-width: 992px){
+    .search-filter-container{
+        width: 50%;
+    }
+    .doctors-list-container{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .loading-para{
+        height: 68vh;
+
+    }
+    .doctor-item-link{
+        width: 23%;
+    }
+    .home-bottom-section-heading{
+        font-size: 25px;
+    }
+    .home-bottom-section-para{
+        font-size: 18px;
+    }
+}
