@@ -32,17 +32,6 @@ function App() {
         </Routes>
 
     </bookingContext.Provider>
-
-
-
-    // <Routes>
-    //   <Route path="/" element={<Home/>} />
-    //   <Route path="/doctor/:id/" element={<DoctorDetails/>} />
-    //   <Route path="/about-us" element={<AboutUs/>} />
-    //   <Route path="/contact-us" element={<ContactUs/>} />
-    //   <Route path="/your-appointments" element={<YourAppointments/>} />
-    //   <Route path="*" element={<NotFound/>} />
-    // </Routes>
   )
 }
 
